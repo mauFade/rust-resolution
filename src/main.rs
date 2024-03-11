@@ -6,7 +6,7 @@ fn convert_str_to_int(param: &String) -> i32 {
     output
 }
 
-fn main() {
+fn factorial() {
     let mut input_value = String::new();
     let mut factorial = 1;
 
@@ -23,4 +23,8 @@ fn main() {
     }
 
     println!("Factorial: {}", factorial);
+}
+
+fn main() {
+    // factorial();
 }
