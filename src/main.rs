@@ -3,7 +3,7 @@ use std::io;
 fn convert_str_to_int(param: &String) -> i32 {
     let output = param.trim().parse::<i32>().unwrap();
 
-    output
+    return output;
 }
 
 fn factorial() {
@@ -83,10 +83,20 @@ fn max_common_divisor() {
     println!("The maximum commom divisor is: {}", num1);
 }
 
+fn for_fn() {
+    let animals: Vec<&str> = vec!["Cavalo", "Tigre", "Onça", "Macaco", "Cachorro", "Aguia"];
+
+    for i in animals {
+        println!("Animal: {}", i);
+    }
+}
+
 fn main() {
     // factorial();
 
     // students_avg();
 
-    max_common_divisor();
+    // max_common_divisor();
+
+    for_fn();
 }
