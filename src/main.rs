@@ -68,8 +68,25 @@ fn students_avg() {
     );
 }
 
+fn max_common_divisor() {
+    let mut num1 = 15;
+    let mut num2 = 40;
+
+    while num2 != 0 {
+        let temp = num2;
+
+        num2 = num1 % num2;
+
+        num1 = temp
+    }
+
+    println!("The maximum commom divisor is: {}", num1);
+}
+
 fn main() {
     // factorial();
 
-    students_avg();
+    // students_avg();
+
+    max_common_divisor();
 }
