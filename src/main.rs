@@ -5,7 +5,8 @@
 // pub mod unique_characters;
 // pub mod enum_func;
 // pub mod tuple;
-pub mod payment_type;
+// pub mod payment_type;
+pub mod struct_func;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -15,5 +16,6 @@ fn main() {
     // palindrome_number::palindrome_number(321);
     // tuple::tuple();
     // enum_func::enum_fn();
-    payment_type::payment_type(payment_type::Payment::CreditCard(true, 32.0));
+    // payment_type::payment_type(payment_type::Payment::CreditCard(true, 32.0));
+    struct_func::struct_func();
 }
