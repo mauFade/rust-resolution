@@ -7,7 +7,8 @@
 // pub mod tuple;
 // pub mod payment_type;
 // pub mod struct_func;
-pub mod reverse_string;
+// pub mod reverse_string;
+pub mod is_anagram;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -19,5 +20,9 @@ fn main() {
     // enum_func::enum_fn();
     // payment_type::payment_type(payment_type::Payment::CreditCard(true, 32.0));
     // struct_func::struct_func();
-    reverse_string::reverse_string("paralelepipedo".to_string())
+    // reverse_string::reverse_string("paralelepipedo".to_string())
+
+    let a = is_anagram::is_anagram("bad credit", "debit card");
+
+    println!("{}", a)
 }
