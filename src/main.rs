@@ -9,7 +9,8 @@
 // pub mod struct_func;
 // pub mod reverse_string;
 // pub mod is_anagram;
-pub mod is_palindrome;
+// pub mod is_palindrome;
+pub mod rotate_arr;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -24,7 +25,8 @@ fn main() {
     // reverse_string::reverse_string("paralelepipedo".to_string())
 
     // let a = is_anagram::is_anagram("bad credit", "debit card");
-    let a = is_palindrome::is_palindrome("arara");
+    // let a = is_palindrome::is_palindrome("arara");
 
-    println!("{}", a)
+    rotate_arr::rotate_arr([1, 2, 3, 4, 5, 6, 7], 2);
+    // println!("{}", a)
 }
