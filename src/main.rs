@@ -8,7 +8,8 @@
 // pub mod payment_type;
 // pub mod struct_func;
 // pub mod reverse_string;
-pub mod is_anagram;
+// pub mod is_anagram;
+pub mod is_palindrome;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -22,7 +23,8 @@ fn main() {
     // struct_func::struct_func();
     // reverse_string::reverse_string("paralelepipedo".to_string())
 
-    let a = is_anagram::is_anagram("bad credit", "debit card");
+    // let a = is_anagram::is_anagram("bad credit", "debit card");
+    let a = is_palindrome::is_palindrome("arara");
 
     println!("{}", a)
 }
