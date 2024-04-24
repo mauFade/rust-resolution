@@ -11,7 +11,8 @@
 // pub mod is_anagram;
 // pub mod is_palindrome;
 // pub mod rotate_arr;
-pub mod impl_keyword;
+// pub mod impl_keyword;
+pub mod kggest_num;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -31,5 +32,6 @@ fn main() {
     // rotate_arr::rotate_arr([1, 2, 3, 4, 5, 6, 7], 2);
     // println!("{}", a)
 
-    impl_keyword::user_data("Mau".to_string(), "teste@test.com".to_string(), true);
+    // impl_keyword::user_data("Mau".to_string(), "teste@test.com".to_string(), true);
+    kggest_num::kggest_num(vec![1, 7, 3, 9, 5, 10, 4], 3)
 }
