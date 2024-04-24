@@ -31,5 +31,5 @@ fn main() {
     // rotate_arr::rotate_arr([1, 2, 3, 4, 5, 6, 7], 2);
     // println!("{}", a)
 
-    impl_keyword::user_data("Mau".to_string())
+    impl_keyword::user_data("Mau".to_string(), "teste@test.com".to_string(), true);
 }

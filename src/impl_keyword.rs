@@ -5,6 +5,14 @@ struct User {
 }
 
 impl User {
+    fn new_user(name: String, email: String, is_active: bool) -> User {
+        return User {
+            email,
+            is_active,
+            name,
+        };
+    }
+
     fn get_name(&self) {
         println!("Nome: {}", self.name);
     }
@@ -26,12 +34,8 @@ impl User {
     }
 }
 
-pub(crate) fn user_data(name: String) {
-    let mut user = User {
-        email: "test".to_string(),
-        name,
-        is_active: false,
-    };
+pub(crate) fn user_data(name: String, email: String, is_active: bool) {
+    let mut user = User::new_user(name, email, is_active);
 
     user.get_name();
 
