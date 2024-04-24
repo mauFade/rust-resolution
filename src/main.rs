@@ -1,3 +1,5 @@
+use move_zeros::move_zeros;
+
 // pub mod one_edit_away;
 // pub mod palindrome_number;
 // pub mod retroactive_string;
@@ -13,7 +15,8 @@
 // pub mod rotate_arr;
 // pub mod impl_keyword;
 // pub mod kggest_num;
-pub mod max_profit;
+// pub mod max_profit;
+pub mod move_zeros;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -35,5 +38,11 @@ fn main() {
 
     // impl_keyword::user_data("Mau".to_string(), "teste@test.com".to_string(), true);
     // kggest_num::kggest_num(vec![1, 7, 3, 9, 5, 10, 4], 3);
-    max_profit::max_profit([7, 1, 5, 3, 6, 4].to_vec());
+    // max_profit::max_profit([7, 1, 5, 3, 6, 4].to_vec());
+    move_zeros(
+        [
+            15, 37, 1, 2, 1, 2, 9, 81, 103, 0, 67, 81, 0, 86, 278, 0, 276, 2874, 8894, 0,
+        ]
+        .to_vec(),
+    );
 }
