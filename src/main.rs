@@ -12,7 +12,8 @@
 // pub mod is_palindrome;
 // pub mod rotate_arr;
 // pub mod impl_keyword;
-pub mod kggest_num;
+// pub mod kggest_num;
+pub mod max_profit;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -28,10 +29,11 @@ fn main() {
 
     // let a = is_anagram::is_anagram("bad credit", "debit card");
     // let a = is_palindrome::is_palindrome("arara");
-
-    // rotate_arr::rotate_arr([1, 2, 3, 4, 5, 6, 7], 2);
     // println!("{}", a)
 
+    // rotate_arr::rotate_arr([1, 2, 3, 4, 5, 6, 7], 2);
+
     // impl_keyword::user_data("Mau".to_string(), "teste@test.com".to_string(), true);
-    kggest_num::kggest_num(vec![1, 7, 3, 9, 5, 10, 4], 3)
+    // kggest_num::kggest_num(vec![1, 7, 3, 9, 5, 10, 4], 3);
+    max_profit::max_profit([7, 1, 5, 3, 6, 4].to_vec());
 }
