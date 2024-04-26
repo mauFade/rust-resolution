@@ -16,6 +16,7 @@
 // pub mod max_profit;
 // pub mod hash_map;
 // pub mod move_zeros;
+pub mod contain_duplicates;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -39,10 +40,10 @@ fn main() {
     // kggest_num::kggest_num(vec![1, 7, 3, 9, 5, 10, 4], 3);
     // max_profit::max_profit([7, 1, 5, 3, 6, 4].to_vec());
     // move_zeros(
-    //     [
+    //     vec![
     //         15, 37, 1, 2, 1, 2, 9, 81, 103, 0, 67, 81, 0, 86, 278, 0, 276, 2874, 8894, 0,
     //     ]
-    //     .to_vec(),
     // );
     // hash_map::hash_map();
+    contain_duplicates::contain_duplicates(vec![1, 2, 3, 4, 5, 6, 7])
 }
