@@ -19,6 +19,7 @@
 // pub mod tuple;
 // pub mod unique_characters;
 // pub mod word_pattern;
+pub mod vec_intersection;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -44,4 +45,8 @@ fn main() {
     // contain_duplicates::contain_duplicates(vec![1, 2, 3, 4, 5, 6, 7]);
     // string_construction::string_construction();
     // word_pattern::word_pattern("abba", "dog cat cat dog");
+    vec_intersection::vec_intersection(
+        vec![1, 2, 3, 4, 5, 6, 7, 8, 8],
+        vec![10, 22, 11, 3, 2, 6, 8, 8],
+    );
 }
