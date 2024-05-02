@@ -21,6 +21,7 @@
 // pub mod word_pattern;
 // pub mod vec_intersection;
 // pub mod three_sum_closest;
+// pub mod arrengement;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -51,4 +52,5 @@ fn main() {
     //     vec![10, 22, 11, 3, 2, 6, 8, 8],
     // );
     // three_sum_closest::three_sum_closest(vec![-1, 2, 1, -4], 1);
+    // arrengement::arrengement(vec![1, 2, 2, 3, 3, 4, 4]);
 }
