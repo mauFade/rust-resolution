@@ -18,6 +18,7 @@
 // pub mod struct_func;
 // pub mod tuple;
 // pub mod unique_characters;
+// pub mod word_pattern;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -42,4 +43,5 @@ fn main() {
     // hash_map::hash_map();
     // contain_duplicates::contain_duplicates(vec![1, 2, 3, 4, 5, 6, 7]);
     // string_construction::string_construction();
+    // word_pattern::word_pattern("abba", "dog cat cat dog");
 }
