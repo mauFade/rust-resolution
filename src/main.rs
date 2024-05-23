@@ -23,6 +23,7 @@
 // pub mod three_sum_closest;
 // pub mod arrengement;
 // pub mod uppercase_chars;
+pub mod accronom_arr;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -55,4 +56,5 @@ fn main() {
     // three_sum_closest::three_sum_closest(vec![-1, 2, 1, -4], 1);
     // arrengement::arrengement(vec![1, 2, 2, 3, 3, 4, 4]);
     // uppercase_chars::uppercase_chars("MAURicio");
+    accronom_arr::accronom_arr("HMUP", vec!["hire", "me", "uber", "please"])
 }
