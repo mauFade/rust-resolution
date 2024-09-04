@@ -25,7 +25,8 @@
 // pub mod uppercase_chars;
 // pub mod accronom_arr;
 // pub mod assets;
-pub mod coin_struct;
+// pub mod coin_struct;
+pub mod product_struct;
 
 fn main() {
     // unique_characters::unique_characters("cateto");
@@ -60,5 +61,6 @@ fn main() {
     // uppercase_chars::uppercase_chars("MAURicio");
     // accronom_arr::accronom_arr("HMUP", vec!["hire", "me", "uber", "please"])
     // assets::assets();
-    coin_struct::coins();
+    // coin_struct::coins();
+    product_struct::product_struct();
 }
